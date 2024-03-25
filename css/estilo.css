@@ -1,0 +1,171 @@
+header{
+  background: blue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav ul{
+
+  margin: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
+  background-color: whitesmoke;
+  list-style: none;
+  width: 95%;
+  text-align: center;
+
+}
+
+
+nav li{
+  display: inline-flex;
+  margin: 0 30px;
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 10 px;
+  width: 100 px;
+}
+
+nav a:hover{
+  color: blue; 
+  background-color: white; 
+}
+
+
+body{
+  font-family: "Century Gothic", serif;
+  background: whitesmoke;
+}
+
+header h1{
+  font-family: "Century Gothic", serif;
+
+}
+
+header nav{
+font-family: "Century Gothic", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+main{
+  font-family: "Century Gothic", cursive;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding:0 20px ;
+}
+
+.lista-productos{
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.productos{
+  width: 30%;
+  background-color: white;
+  padding: 20px 5px 20px 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  transition: box-shadow 0.8s ease-in-out;
+}
+
+.productos:hover{
+  box-shadow: 0 0 30px rgba(0, 0, 600, 0.8);
+}
+
+.productos img{
+  align-content: center;
+  width: 250px;
+  height: 200px;
+  display: block;
+  transition: tranform 0.6s ease-in-out;
+  margin: 0 auto 10px;
+}
+
+.producto:hover img{
+  transform: scale(1.1);
+}
+
+.productos button {
+  display: block;
+  margin: 0 auto ;
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ense-in-out;
+}
+
+.productos button:hover{
+  background-color: blue;
+}
+
+
+footer{
+
+  background-color: skyblue;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: century gothic;
+  font-size: 15px;
+
+
+}
+
+.links-informaticos{
+  width: 400px;
+
+}
+
+.links-informaticos ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links-informaticos li a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.redes-sociales{
+  width: 400px;
+
+}
+
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales img:hover{
+  transform: scale(1.1);
+}
+
